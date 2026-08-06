@@ -325,12 +325,12 @@ color:white;
     flex-direction: column;
     background: linear-gradient(rgba(239, 212, 79, 0.253), rgba(0, 0, 0, 0.6)), url("./img/pupil1.avif");
     background-size: cover;
-    width:fit-content;
-    height:fit-content;
+    /* width:500px;
+    height:500px; */
     margin-top: 50px;
 }
 .exc{
-    width:100%;
+    width:fit-content;
     margin-left: 20px;
 }
 .excl{
@@ -341,16 +341,80 @@ color:white;
     font-size: 10px;
 border-radius: 15px;
 width:150px;
-margin-top:15px;
-margin-bottom:10px;
+/* margin-top:8px; */
+margin-bottom:5px;
 padding: 5px 8px;
 text-align: center;
     }
     h2{
     color:white;
-    font-size: 20px;
+    font-size: 23px;
     margin-top: 10px;
     margin-bottom: 16px;
     
+}
+.inter{
+    color:white;
+    font-size: 15px;
+    
+    
+    
+}
+.btn{
+    color:white;
+    background-color: #D4AF37;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 15px;
+    border-radius: 22px;
+    border: none;
+    padding: 12px 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.btt{
+      color:white;
+    background-color: #D4AF37;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 15px;
+    border-radius: 22px;
+    border: none;
+    padding: 12px 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.hero1{
+    margin-top: 50px;
+    width: fit-content;
+    border: 2px solid rgba(255, 255, 255, 0.119);
+    backdrop-filter: blur(15px); 
+    border-radius: 16px;
+    height:300px;
+    padding: 20px;
+    margin: 20px
+}
+.hero1 h2{
+    font-size: 25px;
+    color: white;
+    margin-top: 5px;
+}
+.hero1 p{
+    font-size: 15px;
+    color: white;
+      margin-top: 5px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.053);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.second{
+    background-color: #ffffffba;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
 }
 }
