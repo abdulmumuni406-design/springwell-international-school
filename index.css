@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+nav{
+    display: flex;
+    /* gap: 300px; */
+    /* background-color: black; */
+    position:fixed;
+    background-color:rgb(185, 16, 16);
+    width:100%;
+    top: 0;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 60px;
+    padding: 15px;
+   
+}
+ul li a{
+    padding:8px 16px;
+    text-decoration: none;
+    display: block;
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 17px;
+    color:white;
+    
+}
+.hero{
+    display:flex;
+    background: linear-gradient(rgba(239, 212, 79, 0.253), rgba(0, 0, 0, 0.6)), url("./img/pupil1.avif");
+    background-size: cover;
+    /* height:100vh; */
+    margin-top: 70px;
+}
+.exc{
+    width:50%;
+    margin-left: 75px;
+}
+.excl{
+    color:white;
+    background-color: #D4AF37;
+    padding-left:15px;
+    padding-right:18px;
+    font-size: 19px;
+border-radius: 25px;
+width:230px;
+margin-top:50px;
+margin-bottom:25px;
+padding: 10px 20px;
+    }
+    
+h2{
+    color:white;
+    font-size: 63px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+span{
+    color: #D4AF37;
+}
+.inter{
+    color:white;
+    font-size: 20px;
+    
+    
+}
+.btn{
+    color:white;
+    background-color: #D4AF37;
+    padding-left:15px;
+    padding-right:18px;
+    font-size: 19px;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btt{
+     color:white;
+    background-color: #D4AF37;
+    padding-left:15px;
+    padding-right:18px;
+    font-size: 19px;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color:white;
+    color: #1B273C;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.btt:hover{
+    background-color:white;
+    color: #1B273C;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.hero1{
+    margin-top: 50px;
+    width: 38%;
+    border: 2px solid rgba(255, 255, 255, 0.119);
+    backdrop-filter: blur(15px); 
+    border-radius: 20px;
+    height: fit-content;
+    padding: 40px;
+    margin: 20px
+}
+.hero1 h2{
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+}
+.hero1 p{
+    font-size: 20px;
+    color: white;
+      margin-top: 10px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.053);
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.admission-update{
+    display: flex;
+    justify-content: space-between;
+}
+.years h2{
+    font-size: 40px;
+    color: #D4AF37;
+      margin-top: 10px;
+}
+.start{
+    display: flex;
+    background-color:#198754;
+    color:white;
+    padding: 12px 22px;
+    border-radius: 9px;
+    border: none;
+    font-size: 15px;
+      margin-top: 15px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      
+     
+}
+.second{
+    background-color: #ffffffba;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.second1{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 280px;
+    height: 250px;
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+    
+
+.graduation{
+    height: 67px;
+    width: 67px;
+    margin-top: 23px;
+    margin-left: 100px;
+    padding: 10px;
+   
+}
+
+.fa-solid{
+    font-size: 40px;
+   margin-top: 23px;
+    margin-left: 12px;
+    padding: 10px;
+    color:#D4AF37;
+   
+}
+.graduation1 h2{
+    font-size: 40px;
+    color: #0D3B66;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+.graduation1 p{
+  font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 52px;
+    
+}
+.student{
+    text-align: center;
+    margin-right: 30px;
+}
+.teacher{
+    text-align: center;
+    margin-right: 30px;
+}
+.third{
+    display:flex;
+    margin-top: 50px;
+    /* margin-left: 30px; */
+    gap: 30px;
+    background-color: #F8FAFC;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pupil{
+    width: 440px;
+    height: 380px;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+.welcome-title{
+    color: black;
+    font-size: 40px;
+}
+.welcome p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.read{
+    margin-top: 20px;
+    margin-left: 40px;
+    color:white;
+    background-color: green;
+    padding:10px 20px;
+    border:none;
+    font-size: 17px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.read:hover{
+    color:green;
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    
+}
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.mission{
+    width: 350px;
+    height: 350px;
+    /* padding:50px; */
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mission h3{
+    text-align: center;
+font-size: 28px;
+padding:7px;
+}
+.mission p{
+    text-align: center;
+    font-size: 16px;
+    padding:13px;
+}
+footer{
+    background-color:#B91010;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    height: 180px;
+}
+.ftt h3,.ftt p{
+color:white;
+}
+.copy{
+    color:white;
+}
+@media screen and (min-width:360px) and (max-width:780px) {
+   nav{
+    width:100%;
+   }
+   ul{
+    /* /* display: flex;
+    list-style-type: none; */
+    margin-left: 30px;
+    padding: 5px;
+   
+}
+.hero{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(239, 212, 79, 0.253), rgba(0, 0, 0, 0.6)), url("./img/pupil1.avif");
+    background-size: cover;
+    width:fit-content;
+    height:fit-content;
+    margin-top: 50px;
+}
+.exc{
+    width:100%;
+    margin-left: 20px;
+}
+.excl{
+    color:white;
+    background-color: #D4AF37;
+    /* padding-left:3px;
+    padding-right:3px; */
+    font-size: 10px;
+border-radius: 15px;
+width:150px;
+margin-top:15px;
+margin-bottom:10px;
+padding: 5px 8px;
+text-align: center;
+    }
+    h2{
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    
+}
+}
