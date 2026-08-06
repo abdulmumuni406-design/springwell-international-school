@@ -163,6 +163,7 @@ hr{
       width: 100%;
       justify-content: center;
       align-items: center;
+      cursor: pointer;
       
      
 }
@@ -262,8 +263,8 @@ hr{
 
 }
 .read:hover{
-    color:green;
-    background-color: white;
+    color:whitesmoke;
+    background-color: green;
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
     
