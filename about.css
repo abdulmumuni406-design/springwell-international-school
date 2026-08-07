@@ -83,7 +83,7 @@ color:white;
 }
 .hero2 p{
     font-size: 18px;
-    margin-top: 85px;
+    margin-top: 15px;
     border:2px solid #B91010;
     border-radius: 13px;
     padding:13px;
@@ -98,4 +98,67 @@ color:white;
     height: 387px;
     border-radius: 25px;
 }
-    
+    @media screen and (min-width:300px) and (max-width:780px) {
+   nav{
+    width:100%;
+   }
+   ul{
+    /* /* display: flex;
+    list-style-type: none; */
+    margin-left: 30px;
+    padding: 5px;
+   }
+   .hero{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    justify-content: center;
+    align-items: center;
+}
+.hero1{
+    padding:10px;
+}
+.hero1 h2{
+    font-size: 23px;
+}
+.founder{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+
+.kids{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+.head{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+footer{
+    background-color:#B91010;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    width: fit-content;
+    height:150px;
+    gap: 5px;
+    width:100%;
+
+
+
+}
+
+.ftt h3,.ftt p,.copy{
+color:white;
+font-size: 12px;
+text-align: center;
+
+}
+}

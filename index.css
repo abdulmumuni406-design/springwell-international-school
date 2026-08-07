@@ -514,16 +514,19 @@ footer{
     align-items: center;
     margin-top: 40px;
     width: fit-content;
-    height:fit-content;
+    height:150px;
     gap: 5px;
     width:100%;
 
-}
+
 
 }
+
 .ftt h3,.ftt p,.copy{
 color:white;
 font-size: 12px;
+text-align: center;
 
+}
 }
 
