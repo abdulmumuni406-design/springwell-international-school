@@ -184,22 +184,21 @@ color:white;
     display: flex;
     flex-wrap: wrap;
     background-color: #F5F5F5;
-    gap: 20px;
 }
 .contact-form{
     background: #fff;
-    padding:20px;
+    padding:40px;
     border-radius:10px;
     width:100%;
-    
 }
 .right{
     background: #fff;
-    padding:15px;
+    padding:30px;
     border-radius:10px;
     /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
-    width:100%;
+    width:86%;
  }
+
  .map{
     overflow-x: hidden;
     margin-top: 30px;
