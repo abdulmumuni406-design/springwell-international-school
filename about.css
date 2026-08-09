@@ -213,4 +213,23 @@ text-align: center;
 
 }
  }
- 
+  @media screen and (min-width:760px) and (max-width:1200px) {
+.founder{
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+.kids{
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+.head{
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+  }
