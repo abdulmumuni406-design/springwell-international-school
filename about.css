@@ -162,3 +162,55 @@ text-align: center;
 
 }
 }
+ @media screen and (min-width:800px) and (max-width:1200px) {
+    .hero{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    justify-content: center;
+    align-items: center;
+}
+.hero1 h2{
+    margin-top: 60px;
+}
+.founder{
+    width: 750px;
+    height: 650px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+.kids{
+    width: 750px;
+    height: 650px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+.head{
+    width: 750px;
+    height: 650px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+footer{
+    background-color:#B91010;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    width: fit-content;
+    height:150px;
+    gap: 5px;
+    width:100%;
+
+
+
+}
+
+.ftt h3,.ftt p,.copy{
+color:white;
+font-size: 12px;
+text-align: center;
+
+}
+ }
+ 
