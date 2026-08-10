@@ -10,26 +10,42 @@ body{
 }
 nav{
     display: flex;
-    /* gap: 300px; */
-    /* background-color: black; */
+   justify-content: space-between;
+   align-items: center;
     position:fixed;
-    background-color:rgb(185, 16, 16);
+    background-color:#071B35;
     width:100%;
     top: 0;
     z-index: 1;
-    justify-content: center;
-    align-items: center;
+    
+   
     
     
+    
+}
+
+
+.logo{
+    width: 120px;
+    height:80px;
+    margin-left: 120px;
+}
+.another{
+    margin-right: 250px;
 }
 
 ul{
     display: flex;
     list-style-type: none;
-    margin-left: 60px;
-    padding: 15px;
+     
+    /* padding: 15px; */
+   justify-content: center;
+   align-items: center;
+     
    
 }
+
+
 ul li a{
     padding:8px 16px;
     text-decoration: none;
@@ -297,7 +313,7 @@ padding:7px;
     padding:13px;
 }
 footer{
-    background-color:#B91010;
+    background-color:#071B35;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -324,6 +340,7 @@ color:white;
     padding: 5px;
    
 }
+
 .hero{
     display:flex;
     flex-direction: column;
@@ -352,7 +369,7 @@ text-align: center;
     }
     h2{
     color:white;
-    font-size: 23px;
+    font-size: 22px;
     margin-top: 10px;
     margin-bottom: 16px;
     
@@ -364,30 +381,8 @@ text-align: center;
     
     
 }
-.btn{
-    color:white;
-    background-color: #D4AF37;
-    padding-left:10px;
-    padding-right:10px;
-    font-size: 15px;
-    border-radius: 22px;
-    border: none;
-    padding: 12px 22px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-.btt{
-      color:white;
-    background-color: #D4AF37;
-    padding-left:10px;
-    padding-right:10px;
-    font-size: 15px;
-    border-radius: 22px;
-    border: none;
-    padding: 12px 22px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
+
+
 .hero1{
     margin-top: 50px;
     width: fit-content;
@@ -469,10 +464,10 @@ hr{
     text-align: center;
 }
 .welcome p{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 6px;
-   text-align: center;
-    padding: 10px;
+   margin-left: 10px;
+    padding: 13px;
 }
 .read{
     margin-top: 10px;
@@ -507,7 +502,27 @@ hr{
     margin-left: 10px;
     margin-right: 10px;
 }
+footer{
+    background-color:#071B35;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    width: fit-content;
+    height:150px;
+    gap: 5px;
+    width:100%;
 
+
+
+}
+
+.ftt h3,.ftt p,.copy{
+color:white;
+font-size: 12px;
+text-align: center;
+
+}
 }
 @media screen and (min-width:800px) and (max-width:1200px) {
   .second{
@@ -592,6 +607,47 @@ hr{
     text-align: center;
     font-size: 14px;
     padding:13px;
+}
+footer{
+    background-color:#B91010;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    width: fit-content;
+    height:150px;
+    gap: 5px;
+    width:100%;
+
+
+
+}
+
+.ftt h3,.ftt p,.copy{
+color:white;
+font-size: 12px;
+text-align: center;
+
+}
+}
+@media screen and (min-width:760px) and (max-width:1200px) {
+    .mission{
+    width: 350px;
+    height: 350px;
+    /* padding:50px; */
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.fourth{
+    display: flex;
+   flex-direction: column;
+    justify-content: space-evenly;
+   align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* margin-left: 18px;
+    margin-right: 18px; */
 }
 footer{
     background-color:#B91010;
