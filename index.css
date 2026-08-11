@@ -96,43 +96,8 @@ span{
     
     
 }
-.btn{
-    color:white;
-    background-color: #D4AF37;
-    padding-left:15px;
-    padding-right:18px;
-    font-size: 19px;
-    border-radius: 25px;
-    border: none;
-    padding: 15px 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.btt{
-     color:white;
-    background-color: #D4AF37;
-    padding-left:15px;
-    padding-right:18px;
-    font-size: 19px;
-    border-radius: 25px;
-    border: none;
-    padding: 15px 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-.btn:hover{
-    background-color:white;
-    color: #1B273C;
-    transform: scale(1.1);
-    transition: 0.3s ease-in-out;
-}
-.btt:hover{
-    background-color:white;
-    color: #1B273C;
-    transform: scale(1.1);
-    transition: 0.3s ease-in-out;
-}
+
+
 .hero1{
     margin-top: 50px;
     width: 38%;
@@ -609,7 +574,7 @@ text-align: center;
     padding:13px;
 }
 footer{
-    background-color:#B91010;
+    background-color:#071B35;
     display: block;
     justify-content:center;
     align-items: center;
@@ -638,19 +603,26 @@ text-align: center;
     border-radius: 15px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
 }
+.pupil{
+    width:450px;
+    height:350px
+}
 
 .fourth{
-    display: flex;
-   flex-direction: column;
-    justify-content: space-evenly;
-   align-items: center;
-    margin-top: 50px;
+     margin-top: 50px;
     margin-bottom: 50px;
-    /* margin-left: 18px;
-    margin-right: 18px; */
+}
+.mission{
+    width:100%;
+    
+}
+.mission p{
+   padding: 10px;
+    font-size: 20px;
+    
 }
 footer{
-    background-color:#B91010;
+    background-color:#071B35;
     display: block;
     justify-content:center;
     align-items: center;
@@ -669,5 +641,72 @@ color:white;
 font-size: 12px;
 text-align: center;
 
+}
+}
+@media screen and (min-width:820px) and (max-width:1180px) {
+.second{
+    background-color: #ffffffba;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin: 10px;
+    gap: 10px;
+}
+.second1{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.third{
+    display: block;
+}
+.pup{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pupil{
+    width:550px;
+    height:500px;
+    
+}
+.welcome-title{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.welcome p{
+    font-size: 23px;
+    margin-top: 20px;
+    margin: 15px;
+}
+
+.fourth{
+    
+}
+.mission{
+    width: 350px;
+    height: 350px;
+    /* padding:50px; */
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mission h3{
+    text-align: center;
+font-size: 25px;
+padding:5px;
+}
+.mission p{
+    text-align: center;
+    font-size: 15px;
+    padding:10px;
+}
+footer{
+    background-color: #071B35;
 }
 }
