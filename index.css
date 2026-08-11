@@ -294,9 +294,32 @@ color:white;
 .copy{
     color:white;
 }
+@media screen and (min-width:1210px) and (max-width:1280px) {
+    .fourth{
+        gap:20px;
+    }
+}
+@media screen and (min-width:1114px) and (max-width:1200px) {
+    .hero{
+        padding-top: 15px;
+    }
+    .inter{
+        font-size:18px;
+    }
+   
+   .second1{
+width:260px;
+height:240px;
+   }
+   .fourth{
+    gap:20px;
+   }
+   .mission{
+    height:370px;
+   }
+}
 
-
-@media screen and (min-width:832px) and (max-width:1280px) {
+@media screen and (min-width:832px) and (max-width:1113px) {
     .hero{
     display:flex;
     flex-direction: column;
