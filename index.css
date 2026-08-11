@@ -405,7 +405,29 @@ color:white;
     height: 250px;
      
 }
-   
+  .third{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    /* margin-left: 30px; */
+    gap: 25px;
+    background-color: #F8FAFC;
+    justify-content: center;
+    align-items: center;
+  }
+  .pupil{
+    width: 650px;
+    height: 600px;
+    border-radius: 20px;
+     align-items: center;
+    
+}
+.welcome-title{
+    padding: 13px;
+}
+.at{
+    padding:15px;
+}
   
 footer{
     background-color:#071B35;
