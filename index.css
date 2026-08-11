@@ -385,7 +385,10 @@ color:white;
  font-size: 18px;
  padding:18px;
 }
-    
+    .hero1{
+        width:fit-content;
+        
+    }
    
   
 footer{
