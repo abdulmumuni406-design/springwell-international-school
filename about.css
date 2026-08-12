@@ -19,7 +19,14 @@ nav{
     align-items: center;
     
 }
-
+.logo{
+    width: 120px;
+    height:80px;
+    margin-left: 120px;
+}
+.another{
+    margin-right: 250px;
+}
 ul{
     display: flex;
     list-style-type: none;
