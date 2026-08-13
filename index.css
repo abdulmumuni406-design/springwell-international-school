@@ -686,18 +686,19 @@ hr{
     
 }
 .pupil{
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 370px;
     border-radius: 20px;
     margin-top: 40px;
     margin-bottom: 13px;
     margin-left: 13px;
     align-items: center;
+    object-fit: cover;
     
 }
 .welcome-title{
     color: black;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
 }
 .welcome p{
