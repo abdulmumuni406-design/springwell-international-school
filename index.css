@@ -763,3 +763,11 @@ text-align: center;
 
 }
 }
+@media screen and (min-width:200px) and (max-width:290px) {
+.hero1{
+    height:200px;
+}
+.mission p{
+font-size:15px
+}
+}
