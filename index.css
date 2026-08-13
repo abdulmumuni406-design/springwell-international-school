@@ -452,7 +452,11 @@ text-align: center;
     padding-top: 15px;
 }
 .excl{
-    font-size: 18px;
+    font-size: 20px;
+   padding: 15px;
+   width:fit-content;
+   /* text-align: center; */
+   margin-left:15px;
     
 }
 .springwell{
