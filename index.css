@@ -415,11 +415,37 @@ text-align: center;
 
 
 @media screen and (min-width:761px) and (max-width:830px) {
+  nav {
+    padding: 10px;
+  }
     .hero{
     display:flex;
     flex-direction: column;
     margin-top: 50px;
 }
+.logo {
+    margin-left: 0px;
+}
+.another {
+    margin-right: 0px;
+}
+.menu-items {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    height: 23vh;
+    top: 90px;
+    right: 0;
+    bottom: 0px;
+    width: 100%
+   }
+   .menu-items.active {
+   display: block;
+   }
+   #menuBtn {
+    display: block;
+   }
 .exc{
     width:100%;
     margin-left: 10px;
