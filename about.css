@@ -20,9 +20,10 @@ nav{
     
 }
 .logo{
-    width: 120px;
+    width: 80px;
     height:80px;
     margin-left: 120px;
+    object-fit: cover;
 }
 .another{
     margin-right: 250px;
