@@ -739,6 +739,9 @@ hr{
     margin-left: 10px;
     margin-right: 10px;
 }
+.our{
+font-size:10px;
+}
 footer{
     background-color:#071B35;
     display: block;
@@ -761,13 +764,5 @@ color:white;
 font-size: 12px;
 text-align: center;
 
-}
-}
-@media screen and (min-width:200px) and (max-width:290px) {
-.hero1{
-    height:200px;
-}
-.mission p{
-font-size:15px
 }
 }
