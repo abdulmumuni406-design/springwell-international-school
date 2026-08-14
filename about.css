@@ -15,7 +15,7 @@ nav{
     background-color:#071B35;
     width:100%;
     top: 0;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -25,8 +25,14 @@ nav{
     margin-left: 120px;
     object-fit: cover;
 }
+#menuBtn {
+    padding: 10px;
+    cursor:pointer;
+    font-weight: bold;
+    display: none
+}
 .another{
-    margin-right: 250px;
+    margin-right: 200px;
 }
 ul{
     display: flex;
@@ -106,71 +112,21 @@ color:white;
     height: 387px;
     border-radius: 25px;
 }
-    @media screen and (min-width:300px) and (max-width:780px) {
-   nav{
-    width:100%;
-   }
-   ul{
-    /* /* display: flex;
-    list-style-type: none; */
-    margin-left: 30px;
-    padding: 5px;
-   }
-   .hero{
-    display:flex;
-    flex-wrap: wrap;
-    margin-top: 28px;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width:1114px) and (max-width:1200px) {
+   
 }
-.hero1{
-    padding:10px;
+ @media screen and (min-width:832px) and (max-width:1113px) {
+    nav{
+        gap:20px;
+    }
+    .logo{
+    
+    margin-left: 80px;
+    
 }
-.hero1 h2{
-    font-size: 23px;
+.another{
+    margin-right:70px;
 }
-.founder{
-    width: 350px;
-    height: 250px;
-    border-radius: 20px;
-    /* margin-top: 20px; */
-}
-
-.kids{
-    width: 350px;
-    height: 250px;
-    border-radius: 20px;
-    /* margin-top: 20px; */
-}
-.head{
-    width: 350px;
-    height: 250px;
-    border-radius: 20px;
-    /* margin-top: 20px; */
-}
-footer{
-    background-color:#071B35;
-    display: block;
-    justify-content:center;
-    align-items: center;
-    margin-top: 40px;
-    width: fit-content;
-    height:150px;
-    gap: 5px;
-    width:100%;
-
-
-
-}
-
-.ftt h3,.ftt p,.copy{
-color:white;
-font-size: 12px;
-text-align: center;
-
-}
-}
- @media screen and (min-width:800px) and (max-width:1200px) {
     .hero{
     display:flex;
     flex-wrap: wrap;
@@ -221,7 +177,39 @@ text-align: center;
 
 }
  }
-  @media screen and (min-width:760px) and (max-width:1200px) {
+ @media screen and (min-width:761px) and (max-width:830px) {
+    nav{
+       gap:20px;
+       
+    }
+    .logo{
+    
+    margin-left: 80px;
+    
+}
+.another{
+    margin-right:70px;
+}
+   ul li a{
+    padding:5px 10px;
+    text-decoration: none;
+    display: block;
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 17px;
+    
+    
+}
+
+      .hero{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    
+}
 .founder{
     width: 700px;
     height: 600px;
@@ -240,4 +228,120 @@ text-align: center;
     border-radius: 20px;
     /* margin-top: 20px; */
 }
+footer{
+    background-color:#071B35;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    width: fit-content;
+    height:150px;
+    gap: 5px;
+    width:100%;
+
+
+
+}
+
+.ftt h3,.ftt p,.copy{
+color:white;
+font-size: 12px;
+text-align: center;
+
+}
   }
+    @media screen and (min-width:300px) and (max-width:760px) {
+   nav{
+    width:100%;
+    justify-content: space-between;
+    gap:200px;
+   }
+   .logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 25px;
+   }
+   .another {
+    margin-right: 0px;
+}
+   ul{
+    /* /* display: flex;
+    list-style-type: none; */
+    margin-left: 30px;
+    padding: 5px;
+   }
+   .menu-items {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    height: 23vh;
+    top: 90px;
+    right: 0;
+    bottom: 0px;
+    width: 100%
+   }
+   .menu-items.active {
+   display: block;
+   }
+   #menuBtn {
+    display: block;
+    margin-right: 25px;
+   }
+   .hero{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.hero1{
+    padding:10px;
+}
+.hero1 h2{
+    font-size: 23px;
+}
+.founder{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+
+.kids{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+.head{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+footer{
+    background-color:#071B35;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    width: fit-content;
+    height:150px;
+    gap: 5px;
+    width:100%;
+
+
+
+}
+
+.ftt h3,.ftt p,.copy{
+color:white;
+font-size: 12px;
+text-align: center;
+
+}
+}
+
+ 
