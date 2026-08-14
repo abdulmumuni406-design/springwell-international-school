@@ -445,6 +445,9 @@ text-align: center;
     bottom: 0px;
     width: 100%
    }
+   .menu-items a{
+    font-size:25px;
+   }
    .menu-items.active {
    display: block;
    }
