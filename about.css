@@ -80,7 +80,6 @@ color:white;
     margin-bottom: 20px;
     text-align: center;
 }
-
 .founder{
     width: 520px;
     height: 470px;
@@ -178,29 +177,40 @@ text-align: center;
 }
  }
  @media screen and (min-width:761px) and (max-width:830px) {
-    nav{
+    /* nav{
        gap:20px;
        
-    }
+    } */
     .logo{
     
     margin-left: 80px;
     
 }
-.another{
-    margin-right:70px;
+.logo {
+    margin-left: 35px;
 }
-   ul li a{
-    padding:5px 10px;
-    text-decoration: none;
+.another {
+    margin-right: 0px;
+}
+.menu-items {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    height: 23vh;
+    top: 90px;
+    right: 0;
+    bottom: 0px;
+    width: 100%
+   }
+   .menu-items.active {
+   display: block;
+   }
+   #menuBtn {
     display: block;
-    /* margin-top: 20px; */
-    text-align: center;
-    font-size: 17px;
+    margin-right: 35px;
     
-    
-}
-
+   }
       .hero{
     display:flex;
     flex-wrap: wrap;
